@@ -14,8 +14,6 @@ AQUÍTUCIUDAD por el nombre de tu ciudad. Si tu ciudad tiene espacios, usa el s�
 ¿Qué hace?
 Obtiene los datos actuales del tiempo (temperatura, humedad, etc.).
 
-Redondea la temperatura en intervalos de 0,5 grados.
-
 Actualiza automáticamente el archivo weather.html.
 
 ¿Cómo usarlo en Salamandra?
