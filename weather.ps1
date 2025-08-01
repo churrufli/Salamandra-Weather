@@ -1,3 +1,4 @@
+# Completa esta información con tus datos personalizados: apiKey, city y folder
 $apiKey = "aqui tu api key"
 $city = "Aqui+tu+ciudad"
 $folder = "C:\Mi carpeta de Salamandra\"
