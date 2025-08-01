@@ -1,5 +1,6 @@
-$apiKey = "aquí tu api key"
-$city = "aquí+tu+ciudad"
+$apiKey = "aqui tu api key"
+$city = "Aqui+tu+ciudad"
+$folder = "C:\Mi carpeta de Salamandra\"
 
 $response = Invoke-RestMethod -Uri "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiKey&units=metric&lang=en"
 
@@ -35,11 +36,11 @@ Sunset: $sunset<BR />
 "@
 
 # Guardar HTML
-Set-Content -Path ".\weather.html" -Value $html -Encoding UTF8
+Set-Content -Path $folder"weather.html" -Value $html -Encoding UTF8
 
 # Guardar archivo de texto
 $currentWeatherText = "$humidity $tempF"
-Set-Content -Path ".\currentweather.txt" -Value $currentWeatherText -Encoding UTF8
+Set-Content -Path $folder"currentweather.txt" -Value $currentWeatherText -Encoding UTF8
 
 Write-Host "Archivos actualizados: weather.html y currentweather.txt"
 Exit
