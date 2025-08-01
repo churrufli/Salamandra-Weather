@@ -11,6 +11,8 @@ AQUÍTUAPIKEY por tu API Key de openweathermap.org.
 AQUÍTUCIUDAD por el nombre de tu ciudad. Si tu ciudad tiene espacios, usa el símbolo +.
 (Ejemplo: New+York en lugar de New York)
 
+FOLDER por tu carpeta donde alojarás estos ficheros
+
 ¿Qué hace?
 Obtiene los datos actuales del tiempo (temperatura, humedad, etc.).
 
